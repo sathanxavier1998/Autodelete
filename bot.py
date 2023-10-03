@@ -2,16 +2,16 @@ import asyncio
 from os import environ
 from pyrogram import Client, filters, idle
 
-API_ID = int(environ.get("API_ID"))
-API_HASH = environ.get("API_HASH")
-BOT_TOKEN = environ.get("BOT_TOKEN")
+API_ID = int(environ.get("25742241"))
+API_HASH = environ.get("6d158174dd23c6cafbd99aff6ae1ba48")
+BOT_TOKEN = environ.get("6010383835:AAHgVrnF4tkEvl8cbQHdaWEJjlBNZmk1jjY")
 SESSION = environ.get("SESSION")
-TIME = int(environ.get("TIME"))
+TIME = int(environ.get("300"))
 GROUPS = []
-for grp in environ.get("GROUPS").split():
+for grp in environ.get("-1001738037090").split():
     GROUPS.append(int(grp))
 ADMINS = []
-for usr in environ.get("ADMINS").split():
+for usr in environ.get("5981826686 800422840").split():
     ADMINS.append(int(usr))
 
 START_MSG = "<b>Hai {},\nI'm a private bot of @mh_world to delete group messages after a specific time</b>"
