@@ -2,11 +2,11 @@ import asyncio
 from os import environ
 from pyrogram import Client, filters, idle
 
-API_ID = int(environ.get("25742241"))
+API_ID = environ.get("25742241")
 API_HASH = environ.get("6d158174dd23c6cafbd99aff6ae1ba48")
 BOT_TOKEN = environ.get("6010383835:AAHgVrnF4tkEvl8cbQHdaWEJjlBNZmk1jjY")
 SESSION = environ.get("SESSION")
-TIME = int(environ.get("1ApWapzMBu2Qd8EWO8bgCQtQ90f2ZArFougAjTJZ40ecR-UWbKpEkfCllb8AX1alA7rEfqZq5WP_A0pGWJqSMZFfAU-jgHw68_7x25JJAwEu-qF_x1fLQoMzg0AbKh87dE_Zpraim3x-IPu_urvzLGQuN2jMHiF1pWf2Pg7lVUaNdKrcziclSeEm6DdXLBorCbXKex1brujLhkeUR6Q86NJnkKf-Y3AYN5DgITqpRp-UwL79X2oiTs62UXkI9Nyw9mXCGyiaX5XkOXiFgao2HTTJuqnpef0eJjfRQvwWh8G4LxWuF_iZQFH9CB97ByxDSEFL7YzM1C_rgKlA7QQ6b7tKseCF80PA="))
+TIME = environ.get("1ApWapzMBu2Qd8EWO8bgCQtQ90f2ZArFougAjTJZ40ecR-UWbKpEkfCllb8AX1alA7rEfqZq5WP_A0pGWJqSMZFfAU-jgHw68_7x25JJAwEu-qF_x1fLQoMzg0AbKh87dE_Zpraim3x-IPu_urvzLGQuN2jMHiF1pWf2Pg7lVUaNdKrcziclSeEm6DdXLBorCbXKex1brujLhkeUR6Q86NJnkKf-Y3AYN5DgITqpRp-UwL79X2oiTs62UXkI9Nyw9mXCGyiaX5XkOXiFgao2HTTJuqnpef0eJjfRQvwWh8G4LxWuF_iZQFH9CB97ByxDSEFL7YzM1C_rgKlA7QQ6b7tKseCF80PA=")
 GROUPS = []
 for grp in environ.get("-1001738037090").split():
     GROUPS.append(int(grp))
